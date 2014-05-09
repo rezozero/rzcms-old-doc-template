@@ -1,0 +1,297 @@
+header {
+	border-bottom: 1px solid #CCC;
+	padding: 20px 0;
+	position: relative;
+
+
+	.epub {
+
+		a {
+			font-size: 11px;
+		}
+	}
+}
+header h2 a{
+	font-family: "23e5e3a3", Helvetica, arial, sans-serif;
+	font-size:	20px;
+}
+header form {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 20px 0;
+}
+header form input[type=search]{
+	width:	250px;
+}
+footer {
+	border-top:				1px solid #CCC;
+	margin:	3em 0;
+	padding: .5em 0;
+}
+
+.alert {
+	color:					red;
+}
+.confirm {
+	color:					green;
+}
+
+#main_navigation > li {
+	display: block;
+	float: left;
+	position: relative;
+	background-color: #F0F0F0;
+}
+#main_navigation li {
+
+	position: relative;
+}
+.sub_navigation li.has_children{
+	border-top: 1px dashed #CCC;
+}
+.navigation li a,
+.navigation li h4{
+	padding: 0.5em 1em;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
+.navigation li h4 {
+	color: #AAA;
+	font-weight: normal;
+}
+
+.sub_navigation {
+	display: none;
+}
+
+#main_navigation li:hover > .navigation {
+	display: block;
+	position: absolute;
+	width: 		300px;
+	z-index:	999;
+	background-color: #F0F0F0;
+
+	box-shadow:				0px 10px 10px rgba(0,0,0,0.33);
+	-webkit-box-shadow:		0px 10px 10px rgba(0,0,0,0.33);
+	-moz-box-shadow:		0px 10px 10px rgba(0,0,0,0.33);
+	-o-box-shadow:			0px 10px 10px rgba(0,0,0,0.33);
+	-ms-box-shadow:			0px 10px 10px rgba(0,0,0,0.33);
+}
+#main_navigation .navigation li:hover .navigation {
+	top: 0;
+	left:	300px;
+}
+
+#main_navigation li.active,
+#main_navigation li:hover{
+	background-color: #D0D0D0;
+}
+
+
+#page_title {
+	font-family: "23e5e3a3", Helvetica, arial, sans-serif;
+	font-size:		50px;
+	line-height: 	50px;
+	margin:	20px 0;
+}
+
+.ariane {
+	margin: 1em 0;
+	padding: 5px;
+	border-bottom:	1px solid #CCCCCC;
+}
+.ariane,
+.ariane a {
+	color: #AAAAAA;
+	font-size: 11px;
+}
+.edit_page_link,
+.lastmod {
+	float: right;
+	margin-left: 10px;
+}
+
+.content p,
+.content ol,
+.content ul,
+.content h2,
+.content h3,
+.content h1,
+.content pre {
+	margin: 0.5em auto;
+
+	text-shadow:	0px 1px 0px rgba(255,255,255,0.8);
+}
+
+.content p:after {
+	content: '.';
+	float: none;
+	display: block;
+	clear: both;
+	height:	0;
+	text-indent: -9999px;
+}
+
+.content img {
+	float:			left;
+	margin-right: 	30px;
+	margin-bottom: 	15px;
+}
+
+#summary {
+	float: right;
+	width: 170px;
+	border: 1px solid #D0D0D0;
+	padding: 1em;
+	background-color: #F0F0F0;
+}
+#summary h3 {
+	font-size: 18px;
+	margin-bottom: 0.5em;
+}
+#summary h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0.5em 0 0;
+}
+#summary li a {
+	font-size: 11px;
+}
+
+.content p,
+.content > ul > li,
+.content > ul {
+	/*width: 650px;*/
+}
+
+.content pre {
+
+	display: block;
+	padding: 0.75em 1em;
+	border: 1px dashed #E0E0E0;
+	background-color: #F0F0F0;
+	margin: 1em auto;
+
+	font-family: Courier, monospace;
+	font-size: 14px;
+}
+
+.content code {
+	font-family: Courier, monospace;
+	font-size: 14px;
+}
+
+.content .prettyprinted,
+.content .prettyprinted {
+
+	display: block;
+	padding: 0;
+	border: 1px dashed #E0E0E0;
+	background-color: transparent;
+	margin: 20px 0;
+}
+
+.content a {
+	color: rgb(0,90,170);
+}
+.content a:hover {
+	color: rgb(0,130,170);
+}
+
+.content ul li {
+	list-style: disc;
+}
+.content ol,
+.content ul {
+	padding: 0px 20px;
+}
+
+.content > ol,
+.content > ul {
+	margin: 15px 0;
+}
+
+.content li.neutral {
+	list-style: none;
+}
+
+.content h1,
+.content h1 a {
+	font-size: 40px;
+	line-height: 45px;
+	margin: 0.5em 0;
+}
+.content h2,
+.content h2 a  {
+	font-size: 30px;
+	line-height: 35px;
+	max-width:		500px;
+	margin: 0.7em 0;
+	padding-top: 0.3em;
+
+	border-top: 1px dashed #CCC;
+}
+.content *:first-child {
+	border: none;
+}
+
+.content ol.linenums {
+	padding: 0px;
+	list-style: inherit;
+	counter-reset:li; /* Initiate a counter */
+}
+.content ol.linenums li {
+	position: relative;
+	padding-left: 3em;
+
+	font-family: Courier, monospace;
+	font-size: 12px;
+}
+.content ol.linenums li.L4,
+.content ol.linenums li.L9 {
+	list-style-type: none;
+}
+.content ol.linenums li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:0;
+    text-align: right;
+    left:0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+}
+
+.content h3,
+.content h3 a  {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0.5em 0;
+}
+
+.content h4,
+.content h4 a  {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0.5em 0;
+}
+
+#relative_navigation {
+	border-top: 1px dashed #CCC;
+	margin: 0.7em 0;
+	padding: 0.5em 0;
+
+	text-align: center;
+}
+
+#relative_navigation a {
+	color:		#888;
+	margin: 0 1em;
+}

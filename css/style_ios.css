@@ -1,0 +1,15 @@
+/**
+ * Special styles for iOS devices
+ * @author Ambroise Maupate
+ */
+
+
+/* -------------------------------------------------
+Video
+--------------------------------------------------*/
+.tabs > li.video {
+	margin-left:		72px !important;
+}
+video {
+	
+}

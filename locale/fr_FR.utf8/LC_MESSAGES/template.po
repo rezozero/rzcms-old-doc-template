@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-11 14:40+0100\n"
+"PO-Revision-Date: 2013-03-11 14:41+0100\n"
+"Last-Translator: REZO ZERO <contact@rezo-zero.com>\n"
+"Language-Team: REZO ZERO\n"
+"Language: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: dgettext:2\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ./../../..\n"
+
+#: ../../../content.php:14 ../../../content.php:28
+msgid "Node type does not have a specific template file."
+msgstr ""
+
+#: ../../../content_pages.php:26
+msgid "Edit page"
+msgstr "Éditer la page"
+
+#: ../../../content_pages.php:32 ../../../content_pages.php:43
+msgid "Summary"
+msgstr "Sommaire"
+
+#: ../../../content_search.php:8
+msgid "Search results"
+msgstr "Résultats de la recherche"
+
+#: ../../../footer.php:2
+#, php-format
+msgid "Copyright © REZO ZERO %d"
+msgstr "Copyright © REZO ZERO %d"
+
+#: ../../../header.php:21
+msgid "Search in doc"
+msgstr "Rechercher…"
+
+#: ../../../404/404.php:7 ../../../404/404.php:13
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: ../../../404/404.php:14
+msgid "The page cannot be found."
+msgstr "La page n'a pu être trouvée."
+
+#: ../../../404/404.php:15
+msgid "Return to site"
+msgstr "Retour au site"
+
+#~ msgid "Press relations"
+#~ msgstr "Relations presse"
+
+#~ msgid "Previous month"
+#~ msgstr "Mois précédent"
+
+#~ msgid "Selection"
+#~ msgstr "Sélection"
+
+#~ msgid "Next month"
+#~ msgstr "Mois suivant"
+
+#~ msgid "Press release"
+#~ msgstr "Dossier de Presse"
+
+#~ msgid "65 ambassadors around the world."
+#~ msgstr "65 ambassadeurs dans le Monde."
+
+#~ msgid "Côte d’Azur"
+#~ msgstr "Côte d’Azur"
+
+#~ msgid "Paris"
+#~ msgstr "Paris"
+
+#~ msgid "World"
+#~ msgstr "Monde"
+
+#~ msgid "Jan."
+#~ msgstr "Jan."
+
+#~ msgid "Feb."
+#~ msgstr "Fev."
+
+#~ msgid "Mar."
+#~ msgstr "Mar."
+
+#~ msgid "Apr."
+#~ msgstr "Avr."
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "Jun."
+#~ msgstr "Jui."
+
+#~ msgid "Jul."
+#~ msgstr "Juil."
+
+#~ msgid "Aug."
+#~ msgstr "Aou."
+
+#~ msgid "Sep."
+#~ msgstr "Sept."
+
+#~ msgid "Oct."
+#~ msgstr "Oct."
+
+#~ msgid "Nov."
+#~ msgstr "Nov."
+
+#~ msgid "Dec."
+#~ msgstr "Dec."
+
+#~ msgid "January"
+#~ msgstr "Janvier"
+
+#~ msgid "February"
+#~ msgstr "Février"
+
+#~ msgid "March"
+#~ msgstr "Mars"
+
+#~ msgid "April"
+#~ msgstr "Avril"
+
+#~ msgid "June"
+#~ msgstr "Juin"
+
+#~ msgid "July"
+#~ msgstr "Juillet"
+
+#~ msgid "August"
+#~ msgstr "Août"
+
+#~ msgid "September"
+#~ msgstr "Septembre"
+
+#~ msgid "October"
+#~ msgstr "Octobre"
+
+#~ msgid "November"
+#~ msgstr "Novembre"
+
+#~ msgid "December"
+#~ msgstr "Decembre"
+
+#~ msgid "See the diaporama"
+#~ msgstr "Voir le diaporama"
+
+#~ msgid "No article found!"
+#~ msgstr "Aucun article trouvé."
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Select a category"
+#~ msgstr "Choisissez une catégorie"
+
+#~ msgid "Remove filter"
+#~ msgstr "Supprimer le filtre"
+
+#~ msgid "View<br/>details"
+#~ msgstr "Voir les<br/>détails"
+
+#~ msgid "Download the label"
+#~ msgstr "Télécharger l'étiquette"
+
+#~ msgid "Ground"
+#~ msgstr "Sol"
+
+#~ msgid "Vinification"
+#~ msgstr "Vinification"
+
+#~ msgid "See on Google Maps"
+#~ msgstr "Voir sur la carte"
+
+#~ msgid "Close ambassador details"
+#~ msgstr "Fermer les détails sur cet ambassadeur"
+
+#~ msgid "Get in touch"
+#~ msgstr "Nous contacter"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Phone"
+#~ msgstr "Téléphone"
+
+#~ msgid "Email"
+#~ msgstr "Adresse email"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Send"
+#~ msgstr "Envoyer"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "See on the map"
+#~ msgstr "Voir sur la carte"
+
+#~ msgid "Itinerary"
+#~ msgstr "Itinéraire"
+
+#~ msgid "Please hold your smartphone vertically."
+#~ msgstr "Veuillez tenir votre smartphone verticalement."
+
+#~ msgid "Please hold your tablet horizontally."
+#~ msgstr "Veuillez tenir votre tablette horizontalement."
+
+#~ msgid ""
+#~ "<span style='font-style:normal'>&darr;</span>&nbsp;&nbsp;Read more..."
+#~ msgstr ""
+#~ "<span style='font-style:normal'>&darr;</span>&nbsp;&nbsp;Lire la suite…"
+
+#~ msgid ""
+#~ "If the map does not appear correctemment, you can <a target=\"_blank\" "
+#~ "href=\"%s\">download the complete list</a>."
+#~ msgstr ""
+#~ "Si la carte n'apparaît pas correctement, vous pouvez <a target=\"_blank\" "
+#~ "href=\"%s\">télécharger la liste complète</a>."
+
+#~ msgid "Get in touch in France : "
+#~ msgstr "Pour la France, nous contacter :"
+
+#~ msgid "Importators"
+#~ msgstr "Importateurs"
+
+#~ msgid "Countries"
+#~ msgstr "Pays"
+
+#~ msgid "Select a country"
+#~ msgstr "Choisissez un pays"
+
+#~ msgid "Back to world"
+#~ msgstr "Retour au Monde"
+
+#~ msgid "Home node does not exist !"
+#~ msgstr "Le noeud home n'existe pas !"
+
+#~ msgid "PDF global"
+#~ msgstr "PDF global"
+
+#~ msgid "Back"
+#~ msgstr "Retour"
+
+#~ msgid "Site footer"
+#~ msgstr "Pied de page du site"
+
+#~ msgid "To modify your website content, connect to"
+#~ msgstr ""
+#~ "Pour modifier le contenu de votre site internet, connectez-vous sur "

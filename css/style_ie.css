@@ -1,0 +1,10 @@
+
+/* Pour les états mouseenter, on doit mettre une image en fond sinon marche pas */
+div {
+	background: 	url("../img/transparent.gif") repeat;
+	
+	margin:			0px;
+	padding:		0px;
+	
+	border:			none;
+}

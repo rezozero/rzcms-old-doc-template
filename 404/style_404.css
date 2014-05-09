@@ -1,0 +1,74 @@
+/** Style 404 **/
+
+
+
+/**** Réglage des couleurs ********/
+
+#logo_404 {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0px auto 0 auto;
+	background:  no-repeat 0 0;
+}
+
+body {
+	display: block;
+	overflow: hidden;
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	border: solid 10px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+#content_404 {
+	display: block;
+	width: 200px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -100px
+}
+
+h2 {
+	font-family:"Helvetica Neue", "Helvetica", "Arial";
+	font-size: 32px;
+	line-height: 32px;
+	color: #333;
+	text-transform: uppercase;
+	margin: 30px 0 6px 0;
+}
+
+#message_404 , #return_site_link {
+	font-family:"Helvetica Neue", "Helvetica", "Arial";
+	font-size: 15px;
+	line-height: 17px;
+	margin: 0px;
+}
+
+#message_404 {
+	margin-bottom: 40px;
+	color: #333;
+}
+
+#return_site_link {
+	display: inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	margin: 0px 0 0 0;
+	padding-bottom: 2px;
+	border-bottom: solid 1px;
+	transition : 250ms ease all;
+	-webkit-transition : 250ms ease all;
+	-moz-transition : 250ms ease all;
+}
+
+#return_site_link:hover {
+	color: #333 !important;
+	border-bottom-color: #333;
+}
